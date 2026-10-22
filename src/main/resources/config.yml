@@ -1,0 +1,32 @@
+# --- ore / block-entity hiding ---
+reveal-distance: 5       # buried blocks closer than this show for real
+hide-radius: 128         # buried blocks within this range are faked as stone
+hidden-blocks:
+  - DIAMOND_ORE
+  - DEEPSLATE_DIAMOND_ORE
+  - EMERALD_ORE
+  - DEEPSLATE_EMERALD_ORE
+  - GOLD_ORE
+  - DEEPSLATE_GOLD_ORE
+  - IRON_ORE
+  - DEEPSLATE_IRON_ORE
+  - ANCIENT_DEBRIS
+  # block entities (stops blockentity debug / storage ESP)
+  - SPAWNER
+  - CHEST
+  - TRAPPED_CHEST
+  - ENDER_CHEST
+  - BARREL
+  - SHULKER_BOX
+  - FURNACE
+  - BLAST_FURNACE
+  - DISPENSER
+  - DROPPER
+  - HOPPER
+  - BREWING_STAND
+  - ENCHANTING_TABLE
+  - BEACON
+
+# --- player ESP hiding ---
+hide-players: true
+player-reveal-distance: 6   # players closer than this are always visible
