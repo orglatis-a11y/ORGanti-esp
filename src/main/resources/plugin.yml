@@ -1,0 +1,8 @@
+name: SimpleAC
+version: 1.1
+main: me.simpleac.SimpleAC
+api-version: "1.21"
+permissions:
+  simpleac.bypass:
+    default: op
+    
